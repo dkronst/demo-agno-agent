@@ -10,3 +10,6 @@ dependencies = [
     "boto3>=1.37.23",
     "openai>=1.69.0",
 ]
+
+[project.scripts]
+demo = "demo:main"
